@@ -1,0 +1,17 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of https://www.aivf.co/.well-known/*
+host: https://www.aivf.co
+# No .well-known discovery documents are published (all probed paths returned 404).
+# Recorded for auditability / idempotent re-runs. No WellKnown pointer wired (nothing found).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

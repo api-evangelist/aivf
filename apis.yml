@@ -1,8 +1,27 @@
 aid: aivf
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aivf.png
 name: AiVF
-description: 'AiVF is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  AIVF develops AI-powered software for in vitro fertilization (IVF) clinics, embryology
+  laboratories, and patients. Its EMA platform applies computer vision and machine learning
+  to embryo evaluation (AIVF Day-3 and Day-5), genetics, outcomes analytics, and clinic-patient
+  communication to improve embryo selection and IVF success rates, alongside ART Compass by AIVF
+  for fertility-lab benchmarking. AIVF holds a CE mark and names ISO 27001, ISO 27799, ISO 13485,
+  HIPAA, and GDPR compliance; in the US an AI component is an investigational device. AIVF was
+  surfaced as an Insight Partners portfolio company and added to the API Evangelist network.
+  It publishes no public developer API — this profile captures the company's identity, security,
+  and compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/aivf/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +35,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Healthcare
+- Fertility
+- IVF
+- Artificial Intelligence
+- Medical Devices
+- Embryology
+- Reproductive Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.aivf.co/
+- type: Blog
+  url: https://aivf.co/news/
+- type: Support
+  url: https://aivf.co/contact/
+- type: SignUp
+  url: https://aivf.co/request-a-demo/
+- type: PrivacyPolicy
+  url: https://aivf.co/privacy-policy/
+- type: TermsOfService
+  url: https://aivf.co/terms-of-use/
+- type: Security
+  url: https://aivf.co/security/
+- type: Compliance
+  url: https://aivf.co/compliance/
+- type: TrustCenter
+  url: https://aivf.co/trust-center/
+- type: DomainSecurity
+  url: security/aivf-domain-security.yml
+- type: LLMsTxt
+  url: llms/aivf-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

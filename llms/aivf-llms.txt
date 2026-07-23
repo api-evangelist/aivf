@@ -1,0 +1,23 @@
+# AIVF
+
+> AIVF develops AI-powered software for in vitro fertilization (IVF) clinics, embryology laboratories, and patients. Its EMA platform applies computer vision and machine learning to embryo evaluation, genetics, analytics, and clinic-patient communication to improve embryo selection and IVF success rates. AIVF holds a CE mark; in the US an AI component is an investigational device. AIVF publishes no public developer API — this profile captures the company's identity, security, and compliance surface for the API Evangelist network.
+
+## Company
+- [Website](https://www.aivf.co/): AIVF corporate site and EMA platform overview.
+- [News](https://aivf.co/news/): Company news and announcements.
+- [Request a Demo](https://aivf.co/request-a-demo/): Sales-led demo request (no self-serve sign up).
+- [Contact](https://aivf.co/contact/): General and support contact form.
+
+## Products
+- EMA platform — AIVF Day-3 and Day-5 embryo evaluation, AIVF Genetics, Analytics, and Communications.
+- ART Compass by AIVF — complementary fertility-lab benchmarking solution.
+
+## Trust and Compliance
+- [Trust Center](https://aivf.co/trust-center/): Security and compliance posture overview.
+- [Compliance](https://aivf.co/compliance/): Named certifications — CE Mark, ISO 27001, ISO 27799, ISO 13485, HIPAA, GDPR.
+- [Security](https://aivf.co/security/): Security overview (products run on AWS).
+- [Privacy Policy](https://aivf.co/privacy-policy/): Data privacy practices.
+- [Terms of Use](https://aivf.co/terms-of-use/): Terms of use.
+
+## Notes
+- No public API, developer portal, OpenAPI, SDKs, MCP server, or webhooks were found as of 2026-07-17.

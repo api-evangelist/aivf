@@ -1,0 +1,33 @@
+generated: '2026-07-17'
+method: searched
+probe: false
+source: https://aivf.co/trust-center/
+url: https://aivf.co/trust-center/
+# Certifications below are AIVF's own, named on the company compliance/security pages.
+# NOTE: AIVF's security page additionally lists SOC 1/2/3, PCI DSS, FedRAMP, FISMA — those
+# are the certifications of Amazon Web Services (AIVF's host), NOT AIVF's own, so they are
+# deliberately excluded here to avoid misattribution.
+certifications:
+- CE Mark
+- ISO 27001
+- ISO 27799
+- ISO 13485
+- HIPAA
+- GDPR
+pages:
+- name: Trust Center
+  url: https://aivf.co/trust-center/
+- name: Compliance
+  url: https://aivf.co/compliance/
+- name: Security
+  url: https://aivf.co/security/
+- name: Privacy
+  url: https://aivf.co/privacy-policy/
+regulatory_note: >-
+  In the US, an AI component of AIVF is considered an investigational device,
+  limited by federal law to investigational use. AIVF holds a CE mark.
+evidence:
+- source: https://aivf.co/compliance/
+  keywords: [ce mark, iso 27001, iso 27799, iso 13485, hipaa, gdpr]
+- source: https://aivf.co/security/
+  keywords: [iso 27001, hipaa, ce mark]
